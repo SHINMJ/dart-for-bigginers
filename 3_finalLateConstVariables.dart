@@ -24,6 +24,8 @@ void main() {
    * const => 타입스크립트나 자바스크립트의 const와는 다름. 
    * compile-time constant => 컴파일 할때 알고 있는 값. 
    * 즉, 앱스토어에 앱을 올리기 전에 값을 알고 있다면 const??!!!
+   * 수정할 수 없음. 컴파일 시 이미 알고 있어야 함. final은 런타임 중에 만들어 질 수 있음.
    */
   const max_allowed_pricec = 130; // 컴파일때 평가됨.
+  const api_key = '12312312312312312';
 }
